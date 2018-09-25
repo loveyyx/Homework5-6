@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -45714,6 +45714,146 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 955bf00fba2fee14696800975b5622e5, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1023864732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1023864733}
+  - component: {fileID: 1023864741}
+  - component: {fileID: 1023864740}
+  - component: {fileID: 1023864739}
+  - component: {fileID: 1023864738}
+  - component: {fileID: 1023864737}
+  - component: {fileID: 1023864736}
+  - component: {fileID: 1023864735}
+  - component: {fileID: 1023864734}
+  m_Layer: 0
+  m_Name: AutoCars
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1023864733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1023864732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 27.5, y: 0, z: -64.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1023864734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1023864732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 568111ac6cb7f0643bf010eee1ea876b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPerfab: {fileID: 1332954895397522, guid: 4fc74ac8294407b42857860d7318035e,
+    type: 2}
+--- !u!114 &1023864735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1023864732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7311cd08baf6c5142876705813af6dce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPerfab: {fileID: 1490506377850286, guid: bef18e2f90ae31f43ab9a00f0108bd65,
+    type: 2}
+--- !u!114 &1023864736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1023864732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f35262fb153cfeb4dba89c900a790af3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPerfab: {fileID: 1332954895397522, guid: 4fc74ac8294407b42857860d7318035e,
+    type: 2}
+--- !u!114 &1023864737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1023864732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9e8dbc10c47ac94e83479016ada5010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPerfab: {fileID: 1490506377850286, guid: bef18e2f90ae31f43ab9a00f0108bd65,
+    type: 2}
+--- !u!114 &1023864738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1023864732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a2a9cbdd964114ea4a936f5906302e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPerfab: {fileID: 1332954895397522, guid: 4fc74ac8294407b42857860d7318035e,
+    type: 2}
+--- !u!114 &1023864739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1023864732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4780752bd2dea469fca796f631fc98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPerfab: {fileID: 1332954895397522, guid: 4fc74ac8294407b42857860d7318035e,
+    type: 2}
+--- !u!114 &1023864740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1023864732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b5d5f975364c64b90bbcd801d79457, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPerfab: {fileID: 1490506377850286, guid: bef18e2f90ae31f43ab9a00f0108bd65,
+    type: 2}
+--- !u!114 &1023864741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1023864732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 732e3dd7ba4eda743959a2e47453a24a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPerfab: {fileID: 1490506377850286, guid: bef18e2f90ae31f43ab9a00f0108bd65,
+    type: 2}
 --- !u!1001 &1025753327
 Prefab:
   m_ObjectHideFlags: 0
